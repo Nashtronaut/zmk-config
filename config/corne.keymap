@@ -35,8 +35,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB           &kp N1        &kp N2        &kp N3        &kp N4          &kp N5              &kp N6     &kp N7          &kp N8          &kp N9        &kp N0           &kp BSPC
-&kp LEFT_SHIFT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp ESCAPE        &kp N1        &kp N2        &kp N3        &kp N4          &kp N5              &kp N6     &kp N7          &kp N8          &kp N9        &kp N0           &kp BSPC
+&trans            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4        &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
 &kp LEFT_CONTROL  &trans        &trans        &kp C_NEXT    &kp C_PREVIOUS  &kp C_PLAY_PAUSE    &trans     &trans          &trans          &trans        &trans           &trans
                                               &kp LGUI      &trans          &kp SPACE           &kp SPACE  &trans          &kp RALT
             >;
@@ -51,7 +51,7 @@
 
             bindings = <
 &kp GRAVE         &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET       &kp AMPS   &kp ASTRK       &kp LPAR          &kp RPAR           &kp DELETE
-&kp ESCAPE        &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp PLUS        &kp MINUS  &kp UP_ARROW    &kp LBRC          &kp RBRC           &kp BACKSLASH
+&trans            &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp PLUS        &kp MINUS  &kp UP_ARROW    &kp LBRC          &kp RBRC           &kp BACKSLASH
 &kp LEFT_CONTROL  &kp F6    &kp F7  &kp F8    &kp F9    &kp F10      &kp UNDERSCORE  &kp EQUAL  &kp DOWN_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
                                     &kp LGUI  &trans    &kp SPACE    &kp SPACE       &trans     &kp RALT
             >;
